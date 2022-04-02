@@ -6,18 +6,22 @@
 */
 
 public class Person {
-    private String name;
-    private String phone;
+    
+    private String name;    // Person name
+    private String phone;   // Person phone
 
+    // Constructor 
     public Person(String name,String phone){
         this.name=name;
         this.phone=phone;
     }
 
+    // Return person name
     public String printName() {
         return this.name;
     }
 
+    // Return person phone
     public String printPhone(){
         return this.phone;
     }
